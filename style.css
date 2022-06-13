@@ -1,0 +1,78 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body{
+    background-image: url(3leafclover.jpg); 
+    background-size: cover;
+    background-repeat: no-repeat;    
+}
+#main{
+    width: 80%;    
+    text-align: center;
+    margin-top: 200px;   
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+       
+}
+
+img{
+    margin-bottom: 20px;
+    width: 200px;
+}
+
+h1{
+    margin-bottom: 10px;
+    color: lime;
+    font-weight: normal;
+    
+}
+
+h2{
+    color: lime;
+    opacity: 0.9;
+    font-weight: normal;
+    margin-bottom: 20px;  
+}
+
+#elementoBotao{
+    padding: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: cornflowerblue;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    transition: filter 1s; 
+    margin-bottom: 20px;
+}
+
+#elementoBotao:hover{
+    filter: brightness(1.2);
+    cursor: pointer;
+}
+
+#diceLeft{  
+    font-weight: bold; 
+    float: left;
+    position: absolute;
+    left: 400px;
+    top: 50px;
+}
+
+#diceRight{ 
+    font-weight: bold;  
+    float: right;
+    position: absolute;
+    right: 400px;
+    top: 50px;
+}
+
+#elementoFrase{
+    font-weight: normal;
+    color: white;
+}
