@@ -3,8 +3,8 @@ const diceLeft = document.querySelector("#diceLeft")
 const diceRight = document.querySelector("#diceRight")
 
 function jogarDados(){
-    const randomProbability = Math.floor(Math.random() * 99.99);
-    const investmentsProbability = Math.floor(Math.random() * 99.99);
+    const randomProbability = Math.floor(Math.random() * 100.1);
+    const investmentsProbability = Math.floor(Math.random() * 100.1);
     const fraseSorte = [
         "Há " + randomProbability + "% de chance de que hoje choverá na sua cidade",
         "Há " + randomProbability + "% de chance de que tudo está a caminho de dar errado para você hoje",
